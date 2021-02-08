@@ -1,3 +1,7 @@
+#用来将方形图片转换为圆形，以便于该游戏正常呈现圆形图像
+#请单独运行该文件，原方形图片（11个）存放在'./ok'文件夹里
+#运行后，将'./ok'里的图片转化为.jpg格式，存放在./ok_new文件夹里
+#最后将./ok_new里的图片转化为圆形，并以.png格式输出到./ok_newCircle文件夹里
 import cv2
 from numpy import *
 import os
